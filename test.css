@@ -341,3 +341,7 @@ pic1 {
     width: 90%;
     max-width: 442px;
 }
+
+.white-text {
+    color: #fff;
+}
