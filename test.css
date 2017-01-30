@@ -323,3 +323,21 @@ pic1 {
     color: #4085fe;
     text-decoration: none;
 }
+
+/* Login Page */
+.loginForm {
+    font-size: 1.2em;
+    color: #fff;     
+    margin: 5% 20px;
+}
+
+.centered {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.music_logo {
+    width: 90%;
+    max-width: 442px;
+}
