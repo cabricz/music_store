@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="960.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
     <link rel="stylesheet" href="test.css" />
     <title>Music Store - Home</title>
 </head>
@@ -44,16 +45,21 @@
         <div class="clear"></div>
         <div class="nav">
             <div class="nav1"><span class="text3"><a target="_blank" href="">Homepage</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="">What's new?</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="">Specials</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="">Reviews</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="">Contact us</a></span></div>
+            
             <div class="nav2">
                 <div class="imgs">
-                    <a target="_blank" href=""><img src="img/04.png" alt="img" /></a>
+                    <a id="searchButton"><img src="img/04.png" alt="img" /></a>
                 </div>
             </div>
+            
             <div class="form">
-                <form method="post" action="handler.php">
-                    <input name="textfield" type="text" class="colortext" value=" Search entire store..." /></form>
+                <form method="#" action="#" id="searchForm">
+                    <input name="searchField" type="text" class="colortext" id="searchField" value=" Search entire store..." />
+                    </form>
             </div>
+            
         </div>
+        <div id="displayResult" class="white-text centered"></div>
         <div class="img"><img class="one" src="img/05.png" alt="img" /><img class="one" src="img/06.png" alt="img" />
             <img class="one" src="img/07.png" alt="img" />
             <img src="img/08.png" alt="img" /></div>
@@ -151,8 +157,10 @@
             </div>
         </div>
     </div>
-
+    
     <script src="js/store.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>

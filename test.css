@@ -345,3 +345,11 @@ pic1 {
 .white-text {
     color: #fff;
 }
+
+#displayResult {
+    display: none;
+    padding-top: 25px;
+    background-color: black;
+    min-height: 100px;
+    font-size: 2em;
+}
